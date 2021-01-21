@@ -1,0 +1,126 @@
+page {
+  height: 100vh;
+  width: 100%;
+}
+
+.landing-page-container {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.left-side {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid gray;
+}
+
+.form {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.input {
+  width: 30%;
+  height: 40px;
+  border-radius: 16px;
+  font-size: 18px;
+  padding-left: 10px;
+  color: black;
+}
+
+.input:focus {
+  border: 2px solid rgb(128, 0, 0);
+  outline: none;
+}
+
+.button {
+  height: 100%;
+  width: 10%;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color:whitesmoke;
+  box-sizing: content-box;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.results-container {
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+}
+
+.row {
+  display: flex;
+  cursor: pointer;
+  width: 65%;
+  height: 50px;
+  margin-top: 2%;
+  border-radius:10px;
+  align-items: center;
+  pointer-events: none;
+}
+
+.row > h2 {
+  color: cornflowerblue;
+  pointer-events: auto;
+}
+
+.row > h2:hover {
+  color: purple;
+}
+
+.repo-name {
+  margin-left: 55%;
+}
+
+.repo-details-container {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.details-row {
+  height: 20px;
+  width: 70%;
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 20px;
+  color:rgb(218, 4, 4);
+}
+
+.value {
+  color: cornflowerblue;
+  font-weight: bold;
+}
+
+.loader {
+  color: cornflowerblue;
+  margin-left: 5%;
+}
